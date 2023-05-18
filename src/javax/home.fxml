@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="javax.HomeController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="188.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello word" wrappingWidth="243.333984375">
+         <font>
+            <Font name="Baskerville Old Face" size="64.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtName" layoutX="29.0" layoutY="142.0" promptText="Name">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtEmail" layoutX="29.0" layoutY="200.0" promptText="Email">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtPhone" layoutX="29.0" layoutY="256.0" promptText="Phone">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <Button onAction="#submit" layoutX="90.0" layoutY="313.0" mnemonicParsing="false" style="-fx-border-color: red;" text="Button" textFill="#d71111" />
+      <Text fx:id="txtOut" layoutX="405.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="152.6708984375" />
+      <Text layoutX="389.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="136.6708984375" />
+      <Text layoutX="405.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+   </children>
+</Pane>
