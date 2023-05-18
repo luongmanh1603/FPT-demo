@@ -29,6 +29,9 @@ public class HomeController {
             phoneList.add(phone);
             String sv = name + "\n" + email + "\n" + phone;
             txtOut.setText(txtOut.getText() + sv);
+            txtName.clear();
+            txtEmail.clear();
+            txtPhone.clear();
         } catch (Exception e){
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setContentText(e.getMessage());
