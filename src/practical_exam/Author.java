@@ -8,9 +8,7 @@ public class Author {
         this.lastName = lastName;
     }
 
-    public Author() {
 
-    }
 
     public String getFirstName() {
         return firstName;
@@ -27,9 +25,8 @@ public class Author {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-    public String toString(){
-        System.out.println("Author's name: "+ firstName +  lastName);
-
-        return null;
+    @Override
+    public  String toString(){
+        return  firstName + " " + lastName;
     }
 }
